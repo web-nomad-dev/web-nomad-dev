@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Glowing Accents -->
+    <radialGradient id="cyanGlow" cx="20%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="80%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Wave Gradients -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    
+    <style>
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        letter-spacing: 2px;
+      }
+      .tagline {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+      .chip {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="900" height="220" rx="16" fill="url(#bgGrad)" />
+  <rect width="900" height="220" rx="16" fill="url(#cyanGlow)" />
+  <rect width="900" height="220" rx="16" fill="url(#purpleGlow)" />
+  
+  <!-- Subtle Border -->
+  <rect width="898" height="218" x="1" y="1" rx="15" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+
+  <!-- Background Decorative Grid / Tech Lines -->
+  <g opacity="0.12" stroke="#38bdf8" stroke-width="1">
+    <line x1="60" y1="0" x2="60" y2="220" />
+    <line x1="160" y1="0" x2="160" y2="220" />
+    <line x1="740" y1="0" x2="740" y2="220" />
+    <line x1="840" y1="0" x2="840" y2="220" />
+    <line x1="0" y1="50" x2="900" y2="50" />
+    <line x1="0" y1="170" x2="900" y2="170" />
+  </g>
+
+  <!-- Modern Dynamic Waves -->
+  <path d="M0,170 C200,120 350,220 550,150 C750,80 850,180 900,160 L900,220 L0,220 Z" fill="url(#waveGrad1)" />
+  <path d="M0,185 C150,150 400,210 600,165 C800,120 850,190 900,180 L900,220 L0,220 Z" fill="url(#waveGrad2)" />
+
+  <!-- Glowing Accent Dots / Tech Elements -->
+  <circle cx="70" cy="50" r="4" fill="#38bdf8" opacity="0.8" />
+  <circle cx="830" cy="50" r="4" fill="#f43f5e" opacity="0.8" />
+  <circle cx="450" cy="30" r="2" fill="#a855f7" opacity="0.6" />
+
+  <!-- Header Badge -->
+  <g transform="translate(365, 34)">
+    <rect width="170" height="24" rx="12" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+    <text x="85" y="16" text-anchor="middle" fill="#38bdf8" class="chip">FULL-STACK &amp; CLOUD</text>
+  </g>
+
+  <!-- Main Name Title -->
+  <text x="450" y="105" text-anchor="middle" fill="url(#nameGrad)" class="title">MOHAMMAD HUZAIF KHOT</text>
+
+  <!-- Tagline -->
+  <text x="450" y="135" text-anchor="middle" fill="url(#subGrad)" class="tagline">Enterprise Architecture • .NET 10 • React 18 • Cloud Systems</text>
+</svg>
