@@ -5,7 +5,7 @@
 
 <br/>
 
-<!-- Dynamic Typing Subtitle (Single-line cycle for clean rendering) -->
+<!-- Dynamic Typing Subtitle -->
 <a href="https://github.com/web-nomad-dev">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=40&lines=Full-Stack+Architect+%E2%80%A2+.NET+10+%26+React+18;Cloud-Native+Systems+%E2%80%A2+Azure+%26+Docker;Enterprise+Workflow+Engines+%E2%80%A2+PostgreSQL" alt="Typing SVG" />
 </a>
@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/Architecture-Clean%20Architecture%20%2F%20CQRS-6366F1?style=for-the-badge&logo=blueprint&logoColor=white" alt="Architecture" />
   </a>
   <a href="https://github.com/web-nomad-dev">
-    <img src="https://img.shields.io/badge/Focus-High--Performance%20APIs-38BDF8?style=for-the-badge&logo=fastapi&logoColor=white" alt="Focus" />
+    <img src="https://img.shields.io/badge/Focus-Enterprise%20Distributed%20Systems-38BDF8?style=for-the-badge&logo=fastapi&logoColor=white" alt="Focus" />
   </a>
 </p>
 
@@ -81,24 +81,50 @@ quote: "Simplicity is prerequisite for reliability." - Edsger W. Dijkstra
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 🏛️ Architecture & Systems Showcase
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=web-nomad-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=818CF8&text_color=94A3B8" alt="GitHub Stats" />
-      </td>
-      <td align="center">
-        <img src="https://streak-stats.demolab.com/?user=web-nomad-dev&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" alt="Streak Stats" />
-      </td>
-    </tr>
-  </table>
-
-  <p align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=web-nomad-dev&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=38BDF8&line=818CF8&point=F43F5E" width="95%" alt="Activity Graph" />
-  </p>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ Enterprise Workflow & Orchestration</h4>
+      <p>Architecting multi-tenant, event-driven workflow platforms with 4-Eye authorization principles, auditable event sourcing, and CQRS patterns.</p>
+      <ul>
+        <li><b>Backend:</b> .NET 10, MediatR, FluentValidation, Entity Framework Core</li>
+        <li><b>Database:</b> Multi-schema isolation, Azure PostgreSQL Flexible Server</li>
+        <li><b>Patterns:</b> Clean Architecture, CQRS, Domain-Driven Design</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🖥️ High-Conversion & Modular Frontends</h4>
+      <p>Building high-performance, modular frontend applications utilizing menu-slice architectures and strictly typed design systems.</p>
+      <ul>
+        <li><b>Stack:</b> React 18, TypeScript, Vite, Tailwind CSS</li>
+        <li><b>State & UI:</b> Modular Sub-panels, Lucide React, Strict Component Boundaries</li>
+        <li><b>Enterprise:</b> SharePoint Framework (SPFx) & Enterprise Integrations</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>☁️ Cloud Infrastructure & DevOps</h4>
+      <p>Automating zero-downtime deployments, containerization, and secure cloud environments.</p>
+      <ul>
+        <li><b>Cloud:</b> Microsoft Azure, Azure Key Vault, Managed PostgreSQL</li>
+        <li><b>Containers:</b> Docker multi-stage builds, Container Hosting</li>
+        <li><b>CI/CD:</b> GitHub Actions automated validation & deployment pipelines</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔒 Security, Compliance & Governance</h4>
+      <p>Enforcing rigorous access controls, auditability, and zero-trust engineering standards.</p>
+      <ul>
+        <li><b>Security:</b> JWT Authentication, RBAC, Dual-Custody Approval Logic</li>
+        <li><b>Reliability:</b> Deterministic unit & integration testing, structured logging</li>
+        <li><b>Standards:</b> OWASP best practices & regulatory audit trails</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
