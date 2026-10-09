@@ -1,11 +1,13 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=220&section=header&text=Mohammad%20Huzaif%20Khot&fontSize=42&fontAlignY=38&desc=Full-Stack%20Architect%20%7C%20Cloud-Native%20Systems%20%7C%20.NET%20%26%20React&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+<!-- High Resolution Native SVG Banner -->
+<img src="assets/banner.svg" width="100%" alt="Mohammad Huzaif Khot Banner" />
 
-<!-- Dynamic Typing Subtitle -->
+<br/>
+
+<!-- Dynamic Typing Subtitle (Single-line cycle for clean rendering) -->
 <a href="https://github.com/web-nomad-dev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=700&height=70&lines=Full-Stack+Architect+%E2%80%A2+.NET+10+%26+React+18;Cloud-Native+Pipelines+%E2%80%A2+Azure+%26+Docker;Enterprise+Workflow+Engines+%E2%80%A2+Distributed+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=40&lines=Full-Stack+Architect+%E2%80%A2+.NET+10+%26+React+18;Cloud-Native+Systems+%E2%80%A2+Azure+%26+Docker;Enterprise+Workflow+Engines+%E2%80%A2+PostgreSQL" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -117,5 +119,5 @@ quote: "Simplicity is prerequisite for reliability." - Edsger W. Dijkstra
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="assets/footer.svg" width="100%" alt="Footer Wave" />
 </div>
